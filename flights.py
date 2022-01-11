@@ -13,13 +13,6 @@ def get_distance_to_my_address(lat,lon):
     dist = hs.haversine(loc1,loc2,unit=Unit.MILES)
     return dist
 
-def get_operator(aircraft_ident):
-    code = s[:3]
-    operators_file = open('operators.json')
-    operators_list = json.load(operators_file)
-    for airline in operators_list:
-        print(airline)
-
 def get_bearing(lat2, long2):
     bearing = Geodesic.WGS84.Inverse(properties.HOME_LAT,properties.HOME_LONG, lat2, long2)['azi1']
     return get_direction_from_bering(bearing)
