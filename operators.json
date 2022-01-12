@@ -1,1 +1,21 @@
-{"UAL": "United", "SWA": "Southwest", "DAL": "Delta", "NKS": "Spirit", "SKW": "SkyWest", "AAL": "American Airlines", "AJT": "Amerijet International", "KFB": "STAjets", "VOI": "Volaris", "CLX": "Cargolux Airlines International", "FDX": "FedEx", "IFL": "Ifl Group"}
+{
+    "AAL": "American",
+    "AJT": "Amerijet",
+    "AMX": "AeroMexico",
+    "ASH": "Mesa",
+    "CLX": "Cargolux",
+    "DAL": "Delta",
+    "FDX": "FedEx",
+    "FFT": "Frontier",
+    "IFL": "Ifl Group",
+    "KFB": "STAjets",
+    "NKS": "Spirit",
+    "PIP": "Pilot Flyskole",
+    "SKW": "SkyWest",
+    "SWA": "Southwest",
+    "UAL": "United",
+    "UCA": "CommutAir",
+    "VIV": "VivaAerobus",
+    "VOI": "Volaris",
+    "XSR": "Airshare"
+}
